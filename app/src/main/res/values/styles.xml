@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FF212121</item>
+        <item name="colorPrimaryDark">#FF090909</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="button_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="spotify_streamer_button" parent="button_style">
+        <item name="android:background"> #F08C35</item>
+    </style>
+
+    <style name="scores_button" parent="button_style">
+        <item name="android:background"> #F08C35</item>
+    </style>
+
+    <style name="library_button" parent="button_style">
+        <item name="android:background">#F08C35</item>
+    </style>
+
+    <style name="build_it_bigger_button" parent="button_style">
+        <item name="android:background">#F08C35</item>
+    </style>
+
+    <style name="xyz_reader_button" parent="button_style">
+        <item name="android:background">#F08C35</item>
+    </style>
+
+    <style name="capstone_button" parent="button_style">
+        <item name="android:background">#F44336</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+</resources>
