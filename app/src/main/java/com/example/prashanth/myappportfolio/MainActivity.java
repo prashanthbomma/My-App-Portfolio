@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onCapstone(View v){
-        Toast.makeText(getApplicationContext(),"This button will launch my Capstone a0000000000pp!",Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(),"This button will launch my Capstone app!",Toast.LENGTH_SHORT).show();
     }
 
 }
